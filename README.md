@@ -44,6 +44,80 @@ Nome da Clinica: Vira-lata de Raça
 
 ---
 # 2. Diagrama do banco de dados
+
+``` mermaid
+erDiagram
+    CLIENTE {
+        int id
+        string nome
+        string endereco
+        string telefone
+        string email
+        int totalAtendimentos
+        boolean descontoFidelidade
+    }
+
+    ANIMAL {
+        int id
+        string nome
+        string especie
+        string raca
+        string sexo
+        date dataNascimento
+        float pesoAtual
+        string tipoRacao
+        string habitos
+    }
+
+    VETERINARIO {
+        int id
+        string nome
+        string especialidade
+        string crmv
+        string telefone
+    }
+
+    ATENDENTE {
+        int id
+        string nome
+        string telefone
+        string email
+    }
+
+    FICHA_PRONTUARIO {
+        int id
+        date dataConsulta
+        string condicoesChegada
+        string observacoes
+        string receitas
+        string orientacoesPosConsulta
+        string vacinas
+        float peso
+        string exames
+    }
+
+    AGENDA {
+        int id
+        date data
+        time horario
+    }
+
+    PLANO_SAUDE {
+        int id
+        string tipo
+        float precoMensal
+        int numConsultasIncluidas
+        int numVacinasIncluidas
+    }
+
+    CLIENTE ||--o{ ANIMAL : "possui"
+    ANIMAL ||--o{ FICHA_PRONTUARIO : "tem"
+    VETERINARIO ||--o{ FICHA_PRONTUARIO : "atende"
+    ATENDENTE ||--o{ CLIENTE : "atende"
+    AGENDA ||--o{ ANIMAL : "agenda"
+    ANIMAL ||--o{ PLANO_SAUDE : "tem"
+
+```
 ---
 # 3. Diagrama de casos de uso 
 ---
