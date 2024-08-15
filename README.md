@@ -11,6 +11,7 @@ Autor: Gabriel Carvalho.
 # 1. Descrição do sistema da clínica veterinária.
 Nome da Clinica: Vira-lata de Raça
 
+![alt text](<vira-lata de raça.png>)
 1. Uma clínica veterinária atende apenas os animais: gatos e cachorros.
 2. Os clientes devem fazer um cadastro de si e dos animais.
 3. Os clientes devem informar as condições nas quais os animais chegam.
