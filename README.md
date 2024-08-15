@@ -125,3 +125,4 @@ erDiagram
 # 4. Principais telas do sistema 
 ---
 # 5. Arquitetura do sistema
+![alt text](image.png)
