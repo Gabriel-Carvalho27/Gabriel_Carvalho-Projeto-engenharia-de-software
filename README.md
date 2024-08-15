@@ -1,5 +1,5 @@
 # Gabriel_Carvalho-Projeto-engenharia-de-software
-Analise e desenvolvimento de sistemas.
+Analise e desenvolvimento de Sistemas.
 
 Aula: Engenharia de software.
 
@@ -8,7 +8,7 @@ Professor: Emiliano.
 Autor: Gabriel Carvalho.
 
 ---
-# 1. Descrição do sistema da crinica veterinaria.
+# 1. Descrição do sistema da clínica veterinária.
 Nome da Clinica: Vira-lata de Raça
 
 1. Uma clínica veterinária atende apenas os animais: gatos e cachorros.
