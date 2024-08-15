@@ -120,6 +120,7 @@ erDiagram
 ```
 ---
 # 3. Diagrama de casos de uso 
+![alt text](image.png)
 ---
 # 4. Principais telas do sistema 
 ---
