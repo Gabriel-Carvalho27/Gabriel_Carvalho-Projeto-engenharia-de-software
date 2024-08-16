@@ -128,3 +128,13 @@ erDiagram
 ---
 # 5. Arquitetura do sistema
 ![alt text](image.png)
+```mermaid
+graph TD;
+    ClientWeb[Cliente Web] -->|Requisição HTTP| WebServer[Servidor Web];
+    WebServer -->|Processamento| PHPApp[Aplicação PHP];
+    PHPApp -->|Consulta| DBServer[Servidor de Banco de Dados];
+    DBServer -->|Resposta| PHPApp;
+    PHPApp -->|Resposta HTML| WebServer;
+    WebServer -->|Resposta HTTP| ClientWeb;
+
+```
