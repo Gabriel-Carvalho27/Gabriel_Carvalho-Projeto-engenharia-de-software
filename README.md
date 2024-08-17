@@ -124,7 +124,7 @@ erDiagram
 ![alt text](clinica.drawio.png)
 ---
 # 4. Principais telas do sistema 
-![alt text](tela1.png) ![alt text](tela2.png) ![alt text](tela3.png) ![alt text](tela4.png) ![alt text](tela5.png) ![alt text](tela6.png) ![alt text](tela7.png)
+![alt text](tela1.png) ![alt text](tela2.png) ![alt text](tela3.png) ![alt text](tela4.png) ![alt text](tela5.png) ![alt text](tela6.png) ![alt text](tela7.png)![alt text](LOGIN.png)
 ---
 # 5. Arquitetura do sistema
 ![alt text](image.png)
